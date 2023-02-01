@@ -1,0 +1,39 @@
+$green: #6AB372;
+$yellow: #F9DD7B;
+$red: #F48383;
+$color: #FDFDFF;
+$darkText: #393D3F;
+
+.container {
+    width: 245px;
+    height: 180px;
+    top: 40px;
+
+    border-radius: 10px;
+    margin-left: 17px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    font-family: 'Quicksand-Regular';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;   
+
+    background-color: #6AB372;
+}
+
+.container h1 {
+    font-family: 'Quicksand-Regular';
+    font-size: 64px;
+    line-height: 10px;
+    color: #FDFDFF;
+}
+
+.container h2 {
+    font-size: 20px;
+    line-height: 5px;
+    color: #FDFDFF;
+}

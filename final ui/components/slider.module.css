@@ -1,0 +1,23 @@
+.container {
+    width: 282px;
+    height: 56px;
+    margin-left: 20px;
+    top: 246px;    
+}
+
+.track {
+    width: 282px;
+    height: 56px;
+    
+    background: #FDFDFF;
+    border-radius: 15px;
+}
+
+.thumb {
+    width: 56px;
+    height: 56px;
+    opacity: 1;
+    
+    background: #5F8493;
+    border-radius: 15px;
+}

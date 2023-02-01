@@ -1,0 +1,17 @@
+.header {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+
+.header h1 {
+    font-family: "Quicksand-Regular";
+    font-size: 80px;
+    font-weight: 300;
+    
+    color: #3c3b3b;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.47);
+}

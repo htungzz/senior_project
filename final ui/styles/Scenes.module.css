@@ -1,0 +1,189 @@
+.morningCard { /*ON*/
+    padding: 1.5rem;
+    text-align: left;
+    margin: 8.5px;
+  
+    width: 179px;
+    height: 179px;
+    
+    background-image: url("../public/icons/Opaque/Morning Scene Opaque.png");
+    background-size: 179px 179px;
+    opacity: 0.5;
+  
+    content: "";
+    display: inline-block;
+}
+
+.morningTCard { /*ON*/
+    padding: 1.5rem;
+    text-align: left;
+    margin: 8.5px;
+  
+    width: 179px;
+    height: 179px;
+    
+    background-image: url("../public/icons/Opaque/Morning Scene Opaque.png");
+    background-size: 179px 179px;
+    opacity: 0.5;
+  
+    content: "";
+    display: inline-block;
+}
+
+.nightCard { /*ON*/
+    padding: 1.5rem;
+    text-align: left;
+    margin: 8.5px;
+  
+    width: 179px;
+    height: 179px;
+    
+    background-image: url("../public/icons/Opaque/Night Scene Opaque.png");
+    background-size: 179px 179px;
+    opacity: 0.5;
+  
+    content: "";
+    display: inline-block;
+}
+
+.nightTCard { /*ON*/
+    padding: 1.5rem;
+    text-align: left;
+    margin: 8.5px;
+  
+    width: 179px;
+    height: 179px;
+    
+    background-image: url("../public/icons/Opaque/Night Scene Opaque.png");
+    background-size: 179px 179px;
+    opacity: 0.5;
+  
+    content: "";
+    display: inline-block;
+}
+
+.arrivingCard { /*ON*/
+    padding: 1.5rem;
+    text-align: left;
+    margin: 8.5px;
+  
+    position: absolute;
+    width: 179px;
+    height: 179px;
+    
+    background-image: url("../public/icons/Opaque/Arriving Scene Opaque.png");
+    background-size: 179px 179px;
+    opacity: 0.5;
+  
+    content: "";
+    display: inline-block;
+}
+
+.arrivingTCard { /*ON*/
+    padding: 1.5rem;
+    text-align: left;
+    margin: 8.5px;
+  
+    width: 179px;
+    height: 179px;
+    
+    background-image: url("../public/icons/Opaque/Arriving Scene Opaque.png");
+    background-size: 179px 179px;
+    opacity: 0.5;
+  
+    content: "";
+    display: inline-block;
+}
+
+.leavingCard { /*ON*/
+    padding: 1.5rem;
+    text-align: left;
+    margin: 8.5px;
+  
+    width: 179px;
+    height: 179px;
+    
+    background-image: url("../public/icons/Opaque/Leaving Scene Opaque.png");
+    background-size: 179px 179px;
+    opacity: 0.5;
+  
+    content: "";
+    display: inline-block;
+}
+
+.leavingTCard { /*ON*/
+    padding: 1.5rem;
+    text-align: left;
+    margin: 8.5px;
+  
+    width: 179px;
+    height: 179px;
+    
+    background-image: url("../public/icons/Opaque/Leaving Scene Opaque.png");
+    background-size: 179px 179px;
+    opacity: 0.5;
+  
+    content: "";
+    display: inline-block;
+}
+
+.leavingCard { /*ON*/
+    padding: 1.5rem;
+    text-align: left;
+    margin: 8.5px;
+  
+    width: 179px;
+    height: 179px;
+    
+    background-image: url("../public/icons/Opaque/Leaving Scene Opaque.png");
+    background-size: 179px 179px;
+    opacity: 0.5;
+  
+    content: "";
+    display: inline-block;
+}
+
+.defaultTCard { /*ON*/
+    padding: 1.5rem;
+    text-align: left;
+    margin: 8.5px;
+  
+    width: 179px;
+    height: 179px;
+    
+    background-image: url("../public/icons/Opaque/Default Scene Opaque.png");
+    background-size: 179px 179px;
+    opacity: 0.5;
+  
+    content: "";
+    display: inline-block;
+}
+
+.defaultCard { /*ON*/
+    padding: 1.5rem;
+    text-align: left;
+    margin: 8.5px;
+  
+    width: 179px;
+    height: 179px;
+    
+    background-image: url("../public/icons/Opaque/Default Scene Opaque.png");
+    background-size: 179px 179px;
+    opacity: 0.5;
+  
+    content: "";
+    display: inline-block;
+}
+
+.scenesCP h1 {
+    font-family: 'Quicksand-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+    position: absolute;    
+    left: 15px;
+    top: -25px;
+    color: #5F8493;
+}

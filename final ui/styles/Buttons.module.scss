@@ -1,0 +1,88 @@
+.container {
+    width: 179px;
+    height: 179px;
+    left: 34px;
+    top: 430px;
+    
+    display: flex;
+    align-items: center;
+}
+
+.lightSwitch_toggle {
+    width: 179px;
+    height: 179px;
+    background: #FDFDFF;
+    // background-image: url("../public/icons/Lightbulb Icon.svg");
+    background-repeat: no-repeat;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    opacity: 1;
+
+    cursor: pointer;
+}
+
+.lightSwitch_toggle:active {
+  opacity: 0.5;
+}
+
+.lightSwitch_toggle h1 {
+    width: 40px;
+    height: 55px;
+    margin-left: 15px;
+    bottom: 11px;
+    margin-top: 113px;
+    
+    font-family: 'Quicksand-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+}
+
+.img {
+    width: 69px;
+    height: 83px;
+    background-image: url("../public/icons/Lightbulb.png");
+}
+
+  .button {
+    position: relative;
+    background-color: #04AA6D;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .button:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }

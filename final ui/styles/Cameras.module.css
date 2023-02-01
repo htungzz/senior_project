@@ -1,0 +1,98 @@
+.cameraFeed {
+    margin: 3.5px;
+    border-radius: 10px;
+  
+    width: 997px;
+    height: 645px;
+    
+    background-image: url("../public/images/Camera 2.png");
+    background-size: 997px 645px;
+  
+    display: inline-block;
+}
+
+.camera1Button{
+    width: 70px;
+    height: 32px;
+    
+    background-image: url("../public/images/Camera 1 Active.svg");
+    border-radius: 10px;
+    opacity: 0.5;
+
+    margin: 3.5px;
+}
+
+.camera2Button{
+    width: 70px;
+    height: 32px;
+    
+    background-image: url("../public/images/Camera 2 Active.svg");
+    border-radius: 10px;
+    opacity: 0.5;
+
+    margin: 3.5px;
+}
+
+.camera3Button{
+    width: 70px;
+    height: 32px;
+    
+    background-image: url("../public/images/Camera 3 Active.svg");
+    border-radius: 10px;
+    opacity: 0.5;
+
+    margin: 3.5px;
+}
+
+.camera4Button{
+    width: 70px;
+    height: 32px;
+    
+    background-image: url("../public/images/Camera 4 Active.svg");
+    border-radius: 10px;
+    opacity: 0.5;
+
+    margin: 3.5px;
+}
+
+.cameraPanel {
+    position: absolute;
+    width: 997px;
+    height: 687px;
+    left: 850px;
+    top: 121px;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.remotesLink {
+    width: 211.67px;
+    height: 23px;
+    margin-left: 30px;
+    position: absolute;
+    left: 1700px;
+    top: 64px;
+
+    font-family: 'Quicksand-Regular';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 25px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+    color: #393D3F;
+}
+
+.remotesLink arrow {
+  width: 25px;
+  height: 25px;
+  border: 5px solid #5F8493;
+  border-left: 0;
+  border-top: 0;
+
+  transform: rotate(315deg);
+}
